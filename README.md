@@ -8,6 +8,7 @@ What it can do?:
 2) Cut, copy, paste, select all text and delete selected text (by shortcut keys or by menu on editor GUI).
 3) Undo and redo recent actions (I wrote these functions separately because they need to be improved).
 
+You can download it by this link: https://github.com/legion2809/TextEditor/releases
 So, if you have any problems, you can contact by links which on my personal webpage: https://legion2809.github.io
 
 Good luck :)
