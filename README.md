@@ -1,2 +1,13 @@
 # TextEditor
 Simple text editor written on C#
+
+Hello, GitHub users! That is my simple text editor.
+
+What it can do?:
+1) Correctly open, create and save .txt files
+2) Cut, copy, paste, select all text and delete selected text (by shortcut keys or by menu on editor GUI).
+3) Undo and redo recent actions (I wrote these functions separately because they need to be improved).
+
+So, if you have any problems, you can contact by links which on my personal webpage: https://legion2809.github.io
+
+Good luck :)
