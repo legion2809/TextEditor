@@ -1,0 +1,10 @@
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\bin\Debug\Text Editor.exe.config
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\bin\Debug\Text Editor.exe
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\bin\Debug\Text Editor.pdb
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.csprojAssemblyReference.cache
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text_Editor.Properties.Resources.resources
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.GenerateResource.cache
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.exe
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.pdb
+C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text_Editor.MainForm.resources
