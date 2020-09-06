@@ -9,33 +9,24 @@ namespace Text_Editor
     class EditText
     {
         private UndoRedo data;
-        private bool textAreaChangeRequired;
+        private bool textBoxChangeRequired = true;
 
         public EditText()
         {
             data = new UndoRedo();
         }
 
-        public bool TextAreaChangeRequired 
-        {
-            get
-            {
-                return textAreaChangeRequired;
-            } set
-            {
-                textAreaChangeRequired = value;
-            }
-        }
+        public bool TextBoxChangeRequired { get => textBoxChangeRequired; set => textBoxChangeRequired = value; }
 
         public string UndoIsClicked()
         {
-            TextAreaChangeRequired = false;
+            TextBoxChangeRequired = false;
             return data.UndoFunc();
         }
 
         public string RedoIsClicked()
         {
-            TextAreaChangeRequired = false;
+            TextBoxChangeRequired = false;
             return data.RedoFunc();
         }
 
@@ -46,12 +37,12 @@ namespace Text_Editor
 
         public bool CanUndo()
         {
-            return data.CanUndo();
+            return data.CanIUndo();
         }
 
         public bool CanRedo()
         {
-            return data.CanRedo();
+            return data.CanIRedo();
         }
     }
 }
