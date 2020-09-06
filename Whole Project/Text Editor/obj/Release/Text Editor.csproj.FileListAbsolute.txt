@@ -1,0 +1,10 @@
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\bin\Release\Text Editor.exe.config
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\bin\Release\Text Editor.exe
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\bin\Release\Text Editor.pdb
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text Editor.csprojAssemblyReference.cache
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text_Editor.MainForm.resources
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text_Editor.Properties.Resources.resources
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text Editor.csproj.GenerateResource.cache
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text Editor.csproj.CoreCompileInputs.cache
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text Editor.exe
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Release\Text Editor.pdb
