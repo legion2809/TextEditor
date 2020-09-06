@@ -8,3 +8,13 @@ C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.cspro
 C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.exe
 C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text Editor.pdb
 C:\Users\LEGION\source\repos\Text Editor\Text Editor\obj\Debug\Text_Editor.MainForm.resources
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\bin\Debug\Text Editor.exe.config
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\bin\Debug\Text Editor.exe
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\bin\Debug\Text Editor.pdb
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text Editor.csprojAssemblyReference.cache
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text_Editor.MainForm.resources
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text_Editor.Properties.Resources.resources
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text Editor.csproj.GenerateResource.cache
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text Editor.csproj.CoreCompileInputs.cache
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text Editor.exe
+E:\Downloads\Documents\Git-projects\TextEditor\Whole Project\Text Editor\obj\Debug\Text Editor.pdb

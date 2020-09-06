@@ -8,65 +8,64 @@ namespace Text_Editor
 {
     class UndoRedo
     {
-        private Stack<string> Undo;
-        private Stack<string> Redo;
+        private Stack<string> UndoSt;
+        private Stack<string> RedoSt;
 
         public UndoRedo()
         {
-            Undo = new Stack<string>();
-            Redo = new Stack<string>();
+            UndoSt = new Stack<string>();
+            RedoSt = new Stack<string>();
         }
 
         public void Clear()
         {
-            Undo.Clear();
-            Redo.Clear();
+            UndoSt.Clear();
+            RedoSt.Clear();
         }
 
         public void Add(string item)
         {
-            Undo.Push(item);
+            UndoSt.Push(item);
         }
 
         public string UndoFunc()
         {
-            string item = Undo.Pop();
-            Redo.Push(item);
+            string item = UndoSt.Pop();
+            RedoSt.Push(item);
 
-            return Undo.First();
+            return UndoSt.First();
         }
 
         public string RedoFunc()
         {
-            if (Redo.Count == 0)
+            if (RedoSt.Count == 0)
             {
-                return Undo.First();
+                return UndoSt.First();
             }
+            string item = RedoSt.Pop();
+            UndoSt.Push(item);
 
-            string item = Redo.Pop();
-            Undo.Push(item);
-
-            return Undo.First();
+            return UndoSt.First();
         }
 
-        public bool CanUndo()
+        public bool CanIUndo()
         {
-            return Undo.Count > 1;
+            return UndoSt.Count > 1;
         }
 
-        public bool CanRedo()
+        public bool CanIRedo()
         {
-            return Redo.Count > 0;
+            return RedoSt.Count > 0;
         }
 
         public List<string> UndoElems()
         {
-            return Undo.ToList();
+            return UndoSt.ToList();
         }
 
         public List<string> RedoElems()
         {
-            return Redo.ToList();
+            return RedoSt.ToList();
         }
     }
 }

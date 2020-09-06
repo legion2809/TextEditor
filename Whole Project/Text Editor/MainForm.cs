@@ -24,18 +24,20 @@ namespace Text_Editor
 
             fileoper = new FileOper();
             edit = new EditText();
-            timer = new Timer();
-            timer.Tick += Timer_Tick;
-            timer.Interval = 500;
 
             fileoper.InitNewFile();
             this.Text = $"Text Editor - {fileoper.Filename}";
+
+            timer = new Timer();
+            timer.Tick += Timer_Tick;
+            timer.Interval = 500;
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
             timer.Stop();
             edit.AddUndoRedo(richTextBox1.Text);
+            UpdateState();
         }
 
         private void createToolStripMenuItem_Click(object sender, EventArgs e)
@@ -85,13 +87,13 @@ namespace Text_Editor
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             fileoper.isFileSaved = false;
-            if (edit.TextAreaChangeRequired)
+            if (edit.TextBoxChangeRequired)
             {
                 timer.Start();
             }
             else
             {
-                edit.TextAreaChangeRequired = false;
+                edit.TextBoxChangeRequired = false;
             }
             UpdateState();
             toolStripStatusLabel1.Text = "Text is changed";
